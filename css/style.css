@@ -1315,8 +1315,8 @@ footer {
 
 .content-main__body {
   position: absolute;
-  top: 225px;
-  right: 23%;
+  top: 280px;
+  right: 22%;
   width: 340px;
   padding: 10px 5px;
 }
@@ -1829,6 +1829,7 @@ footer {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     margin: 0 auto;
+    min-width: 100%;
   }
 
   .slider-exclusive__card {
