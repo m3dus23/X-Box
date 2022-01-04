@@ -1028,6 +1028,21 @@ body.ie ._ibg img {
   position: relative;
 }
 
+.actions-header._hover .actions-header__sub-list {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  visibility: visible;
+}
+
+.actions-header._hover .actions-header__arrow {
+  -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  color: #b8ffa7;
+}
+
 .actions-header__avatar {
   padding: 10px 0px;
   font-size: 20px;
@@ -1794,7 +1809,7 @@ footer {
     -webkit-transform: translate(0px, 10px);
         -ms-transform: translate(0px, 10px);
             transform: translate(0px, 10px);
-    min-width: 210px;
+    min-width: 180px;
     left: -15%;
     position: absolute;
     top: 100%;
@@ -1811,6 +1826,14 @@ footer {
     right: 0;
     position: absolute;
     top: 110%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    -webkit-transform: translate(0px, 10px);
+        -ms-transform: translate(0px, 10px);
+            transform: translate(0px, 10px);
   }
 
   .actions-header__sub-link {
@@ -2296,6 +2319,14 @@ footer {
     right: 0;
     position: absolute;
     top: 120%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    -webkit-transform: translate(0px, 10px);
+        -ms-transform: translate(0px, 10px);
+            transform: translate(0px, 10px);
   }
 
   .actions-header__sub-link {

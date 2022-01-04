@@ -1161,6 +1161,14 @@ window.onload = function () {
             _removeClasses(document.querySelectorAll('.menu__item._hover'), "_hover");
          }
       }
+      //Спойлер для х бокса
+      if (targetElement.classList.contains('actions-header__arrow')) {
+         targetElement.closest('.header__actions').classList.toggle('_hover');
+      }
+      // Убираем спойлеры для х бокса при нажатии на любой участок страницы
+      if (!targetElement.closest('.header__actions') && document.querySelectorAll('.header__actions._hover').length > 0) {
+         _removeClasses(document.querySelectorAll('.header__actions._hover'), "_hover");
+      }
       // Добавим форму поиска при нажатии на лупу + её закрытие при нажатии на любой участок страницы
       if (targetElement.classList.contains('search-form__icon')) {
          document.querySelector('.search-form').classList.toggle('_active');
