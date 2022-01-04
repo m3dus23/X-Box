@@ -239,7 +239,7 @@ let sliderSlider = new Swiper('.content-main__block', {
 	slidesPerView: 1,
 	spaceBetween: 0,
 	autoHeight: true,
-	speed: 800,
+	speed: 700,
 	//touchRatio: 0,
 	//simulateTouch: false,
 	loop: true,
@@ -290,7 +290,7 @@ let sliderSlider = new Swiper('.content-main__block', {
 
 function sliders_bild_callback(params) { }
 
-let slider = new Swiper('.slider-games__body', {
+let slider = new Swiper('.slider-exclusive__body', {
 	/*
 	effect: 'fade',
 	autoplay: {
@@ -303,7 +303,7 @@ let slider = new Swiper('.slider-games__body', {
 	slidesPerView: 4,
 	spaceBetween: 0,
 	autoHeight: true,
-	speed: 800,
+	speed: 600,
 	//touchRatio: 0,
 	//simulateTouch: false,
 	loop: true,
@@ -318,17 +318,16 @@ let slider = new Swiper('.slider-games__body', {
 	*/
 	// Arrows
 	navigation: {
-		nextEl: '.games__controls .controls-games_next',
-		prevEl: '.games__controls .controls-games_prev',
+		nextEl: '.exclusive__controls .controls-exclusive_next',
+		prevEl: '.exclusive__controls .controls-exclusive_prev',
 	},
 	breakpoints: {
 		320: {
-			slidesPerView: 1,
+			slidesPerView: 1.3,
 			spaceBetween: 10,
-			autoHeight: true,
 		},
 		400: {
-			slidesPerView: 1.5,
+			slidesPerView: 1.6,
 			spaceBetween: 10,
 		},
 		600: {
