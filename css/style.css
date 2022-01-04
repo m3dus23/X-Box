@@ -1029,6 +1029,7 @@ body.ie ._ibg img {
 }
 
 .actions-header__avatar {
+  padding: 10px 0px;
   font-size: 20px;
   color: #8DD83D;
 }
@@ -1039,6 +1040,7 @@ body.ie ._ibg img {
   line-height: 100%;
   color: rgba(255, 255, 255, 0.5);
   margin: 0px 9px 0px 5px;
+  padding: 10px 0px;
 }
 
 .actions-header__arrow {
@@ -1048,6 +1050,7 @@ body.ie ._ibg img {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  padding: 10px 0px;
 }
 
 .actions-header__arrow._active {
@@ -1807,7 +1810,7 @@ footer {
     min-width: 145px;
     right: 0;
     position: absolute;
-    top: 150%;
+    top: 110%;
   }
 
   .actions-header__sub-link {
